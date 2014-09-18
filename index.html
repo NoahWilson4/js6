@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+	<div class="main">
+
+		<div class="user-profile">
+
+			<div class="edit-view">	
+				<div class="image">
+					<img src="DSC02096.JPG" class="user-image-edit">
+					
+				</div>
+				
+				
+				<form class="profile-edit" id="edit-form">
+					<fieldset>
+						<div class="form-label-edit">Edit Profile</div>
+							<div class="heading heading-edit">User Name:</div>
+							<textarea class="user-text-edit user-name-edit" form="edit-form"></textarea>
+							<div class="heading">Bio:</div>
+							<textarea class="user-text-edit bio-edit" form="edit-form"></textarea>
+							<div class="heading">Favorite Books:</div>
+							<textarea class="user-text-edit fav-books-edit" form="edit-form"></textarea>
+							<div class="heading">Favorite Javascript Libraries:</div>
+							<textarea class="user-text-edit fav-jav-edit" form="edit-form"></textarea>
+							<input type="submit" form="edit-form" class="submit">
+							<button class="done-edit">Finished Editing</button>
+					</fieldset>
+				</form>
+			</div>
+			<div class="profile-view">
+				<div class="image">
+					<img src="DSC02096.JPG" class="user-image">
+					<button class="to-edit"type="button">Edit Profile</button>
+				</div>
+				<div class="user-info">
+					<div class="user-name">User Name</div>
+					<div class="heading">Bio:</div><div class="bio info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus animi, voluptate tempora omnis eaque quo odio ut, maiores maxime illo, commodi quia nostrum provident, magnam numquam praesentium minus! Delectus.</div>
+					<div class="heading">Favorite Books:</div><div class="fav-books info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus animi, voluptate tempora omnis eaque quo odio ut, maiores maxime illo, commodi quia nostrum provident, magnam numquam praesentium minus! Delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque cum, neque placeat quae nemo corporis. Vitae incidunt eveniet harum, aperiam, esse corrupti eligendi eum, cum, saepe natus repellendus corporis unde.</div>
+					<div class="heading">Favorite Javascript Libraries:</div><div class="fav-jav info">numquam delectus, laerden, jasmina, cloodertar</div>	
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
